@@ -1,3 +1,12 @@
 <h1>App Component</h1>
 
- <app-login></app-login>  
+<button (click)="getName(username.value)"> Run Function</button>
+<button (click)="Name = 'Please Subscribe My Channel'">Subscribe</button>
+<input type="text" (keydown.Enter)="getName(username.value)" name="username" placeholder="Please Enter Your Name" #username>
+{{Name}}
+ <!-- <app-login></app-login>   -->
+ <app-footer></app-footer>
+ <app-courses></app-courses>
+ <app-header></app-header>
+ <app-teachers-list></app-teachers-list>
+ <app-student-list></app-student-list>

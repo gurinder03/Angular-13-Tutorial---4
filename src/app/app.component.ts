@@ -6,9 +6,10 @@ import { Component } from '@angular/core';
   styleUrls: ['./app.component.css']
 })
 export class AppComponent {
-  title = 'TechEngineer1';
-  getName()
+  Name = '';
+  getName(ChannelName :any)
   {
-    return "I have 10 years of Experience";
+    console.log(ChannelName);
+    this.Name = ChannelName;
   }
 }

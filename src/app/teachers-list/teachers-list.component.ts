@@ -3,7 +3,7 @@ import { Component, OnInit } from '@angular/core';
 @Component({
   selector: 'app-teachers-list',
   template: `
-    <h1>
+    <h1 class="heading">
       Teachers-list works!
     </h1>
   `,
